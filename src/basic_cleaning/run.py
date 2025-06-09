@@ -54,42 +54,42 @@ if __name__ == "__main__":
     parser.add_argument(
         "--input_artifact", 
         type = str,
-        help = Inital artifact to be cleaned,
+        help = "Inital artifact to be cleaned",
         required = True
     )
 
     parser.add_argument(
         "--output_artifact", 
         type = str,
-        help = Output artifact for cleaned data,
+        help = "Output artifact for cleaned data",
         required = True
     )
 
     parser.add_argument(
         "--output_type", 
         type = str,
-        help = Type of the output dataset,
+        help = "Type of the output dataset",
         required = True
     )
 
     parser.add_argument(
         "--output_description", 
         type = str,
-        help = Description of the output dataset,
+        help = "Description of the output dataset",
         required = True
     )
 
     parser.add_argument(
         "--min_price", 
         type = float,
-        help = Minimum house price to be considered,
+        help = "Minimum house price to be considered",
         required = True
     )
 
     parser.add_argument(
         "--max_price",
         type = float,
-        help = Maximum house price to be considered,
+        help = "Maximum house price to be considered",
         required = True
     )
 
