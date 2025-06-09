@@ -24,7 +24,7 @@ modeling:
   # Fraction of remaining data to use for validation
   val_size: 0.2
   # Fix this for reproducibility, change to have new splits
-  random_seed: 42
+  random_seed: 27
   # Column to use for stratification (use "none" for no stratification)
   stratify_by: "neighbourhood_group"
   # Maximum number of features to consider for the TFIDF applied to the title of the
